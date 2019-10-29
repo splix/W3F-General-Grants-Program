@@ -47,7 +47,7 @@ The scope of the project is adding support of Polkadot specific API and features
 
 ### Milestones
 
-#### Integrate Polkadot API - 3-4 weeks
+#### Integrate Polkadot API - 4 weeks
 It includes extending Dshackle architecture, commands, protocol, and configuration structure with the new type of blockchain. 
 
 Deliverables:
@@ -56,25 +56,20 @@ Deliverables:
 - run balancer and subscribe to the current status on Polkadot
 - a Docker based usage demo
 
-#### Full API access through balancer - 3-4 weeks
+#### Full API access through balancer - 4 weeks
 
 Deliverables:
 
 - execute any commands supported by Polkadot though balancer
 - Docker-based quick-start example configuration
 
-#### Caching, monitoring - 2-3 week
+#### Caching, monitoring, JS API - 4 weeks
 
 Deliverables:
 
 - balancer caches data in memory and/or local Redis
 - Prometheus compatible endpoint for gathering current metrics related to Polkadot access and upstream
 - Kubernetes compatible health-checking endpoint
-
-#### Javascript API library - 1-3 weeks
-
-Deliverables:
-
 - RPC provider for polkadot-js
 - Individual tutorial covering setup and use of Polkadot balancer
 
